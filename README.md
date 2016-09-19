@@ -2,7 +2,7 @@
 
 The Forbidden Book is an exploration into information theory.  In theory, all expressible information should already exist.  There should be no difference between creativity, search, discovery and random means of information retrieval, other than time.  
 
-The Forbidden book generate random bytes and displays them as text and images.  What will you find?
+The Forbidden book generates random bytes and displays them as text and images.  What will you find?
 
 Theoretical Note:
 
