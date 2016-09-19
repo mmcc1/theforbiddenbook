@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheForbiddenBook", "TheForbiddenBook\TheForbiddenBook.csproj", "{B0DE95A7-9559-44E4-A15C-7085264FF3A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0DE95A7-9559-44E4-A15C-7085264FF3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0DE95A7-9559-44E4-A15C-7085264FF3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0DE95A7-9559-44E4-A15C-7085264FF3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0DE95A7-9559-44E4-A15C-7085264FF3A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
