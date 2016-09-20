@@ -13,3 +13,11 @@ At present, The Forbidden Book is using a cryptographic RNG, so it requires a ne
 How do we design that RNG?
 
 If you like the principle check out https://libraryofbabel.info/
+
+Extended Research
+
+One of the most interesting possibilities that arises from the software is the tantalising prospect that structure exists to comprehensible information that could be used to compute the location of previously unknown comprehensible information.  Think of spidering the web and you'll get the basic idea.
+
+This may seem a strange notion at first, however, there is a structure to language, a relationship between words, meaning and ultimately physics.  The connection to physics implies a certain level of computablity, which we leverage every day in the form of dictionaries and word nets.
+
+Is there a formula of the E=MC^2 ilk in terms of comprehensible information?  One that could separate fact from fiction too?
