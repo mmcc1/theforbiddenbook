@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
+﻿using System.Threading;
 using System.Windows.Forms;
 
 namespace TheForbiddenBook
@@ -15,6 +9,7 @@ namespace TheForbiddenBook
     {
         public event RaiseHandler RaiseSeq;
         Thread[] threads;
+        bool shouldExit;
 
         public void StartEngine()
         {
@@ -30,7 +25,7 @@ namespace TheForbiddenBook
         {
             int i = (int) threadNum;
             
-            while (true)
+            while (!shouldExit)
             {
                 Thread.Sleep(1);
                 Application.DoEvents();
@@ -40,8 +35,7 @@ namespace TheForbiddenBook
 
         public void KillThreads()
         {
-            for (int i = 0; i < threads.Length; i++)
-                threads[i].Abort();
+            shouldExit = true;
         }
     }
 }
