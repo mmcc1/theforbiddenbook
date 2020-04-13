@@ -1,16 +1,14 @@
 # The Forbidden Book
 
-The Forbidden Book is an exploration into information theory.  In theory, all expressible information should already exist.  There should be no difference between creativity, search, discovery and random means of information retrieval, other than time.  
+The Forbidden Book is an exploration into information theory.  In theory, all expressible information should already exist.  For example, if we could compute every possible permutation of a 1MB file, we would have everything that could ever be expressed in 1MB. All the stories, songs, technology and video that have ever been created, or could be created.  
+
+While they seem different, there is no difference between creativity, memory, search, discovery, inference and random means of information retrieval, other than time.  
 
 The Forbidden book generates random bytes and displays them as text and images.  What will you find?
 
 Theoretical Note:
 
-In working with this I discovered what we consider random, in terms of PRNGs or TRNGs, is not really usefully random in the context of The Forbidden Book.  Mainly because the The Forbidden Book is seeking some order in the random, which RNGs and TRNGs go out of their way to remove.
-
-At present, The Forbidden Book is using a cryptographic RNG, so it requires a new RNG to become useful.
-
-How do we design that RNG?
+The Forbidden Book works best with RNGs which do not attempt to maintain a proper distribution of values.
 
 If you like the principle check out https://libraryofbabel.info/
 
