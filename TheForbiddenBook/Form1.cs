@@ -37,6 +37,7 @@ namespace TheForbiddenBook
             }
             else
             {
+                timer1.Enabled = false;
                 ee.KillThreads();
                 button1.Text = "Start";
             }
@@ -62,7 +63,7 @@ namespace TheForbiddenBook
             {
                 for (int j = 0; j < y; j++)
                 {
-                    Color _c = Color.FromArgb(buffer[index++], 0, 0);
+                    Color _c = Color.FromArgb(0, 0, buffer[index++]);
                     _bm.SetPixel(i, j, _c);
                 }
             }
@@ -95,6 +96,7 @@ namespace TheForbiddenBook
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
+            timer1.Enabled = false;
             ee.KillThreads();
         }
     }
