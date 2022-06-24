@@ -1,5 +1,7 @@
 # The Forbidden Book
-
+ 
+NET 6 Implementation  
+ 
 The Forbidden Book is an exploration into information theory.  In theory, all expressible information should already exist.  For example, if we could compute every possible permutation of a 1MB file, we would have everything that could ever be expressed in 1MB. All the stories, songs, technology and video that have ever been created, or could be created.  
 
 While they seem different, there is no difference between creativity, memory, search, discovery, inference and random means of information retrieval, other than time.  
