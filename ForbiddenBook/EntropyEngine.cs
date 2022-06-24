@@ -1,7 +1,10 @@
-﻿using System.Threading;
-using System.Windows.Forms;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace TheForbiddenBook
+namespace ForbiddenBook
 {
     public delegate void RaiseHandler(int i);
 
@@ -15,7 +18,7 @@ namespace TheForbiddenBook
         {
             threads = new Thread[255];
 
-            for(int i = 0; i < threads.Length; i++)
+            for (int i = 0; i < threads.Length; i++)
             {
                 threads[i] = new Thread(new ParameterizedThreadStart(RaiseEvent));
                 threads[i].Start((object)i);
@@ -23,8 +26,8 @@ namespace TheForbiddenBook
         }
         private void RaiseEvent(object threadNum)
         {
-            int i = (int) threadNum;
-            
+            int i = (int)threadNum;
+
             while (!shouldExit)
             {
                 Thread.Sleep(1);

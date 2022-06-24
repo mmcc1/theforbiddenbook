@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace TheForbiddenBook
+namespace ForbiddenBook
 {
     public partial class Form1 : Form
     {
@@ -18,6 +18,7 @@ namespace TheForbiddenBook
         public Form1()
         {
             InitializeComponent();
+
             width = 640;
             height = 480;
             buffer = new int[width * height];
@@ -85,8 +86,9 @@ namespace TheForbiddenBook
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            pictureBox1.BackgroundImage = GenerateImage(width, height);
             pictureBox1.Invalidate();
+            pictureBox1.BackgroundImage = GenerateImage(width, height);
+            
 
             if (textBox1.TextLength > width * height * 2)
                 textBox1.Clear();
